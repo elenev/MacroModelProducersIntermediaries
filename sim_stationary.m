@@ -18,8 +18,7 @@ close all;
 respath='./';
 if ~exist('resfile','var') 
     disp('resfile not defined. Opening default file instead.');
-    resfile='res_20200312_benchriskysafesigI0_s130'; 
-%    resfile='res_20190808_bench_s19c46'; 
+    resfile='rres_20200910_bench_s130'; 
 end
 load([respath,resfile,'.mat']);
 

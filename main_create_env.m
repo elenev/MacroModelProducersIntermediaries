@@ -12,7 +12,7 @@ if ~exist('experdef_file','var')
 end
 % name of experiment
 if ~exist('expername','var')
-    expername='xpbase_ini0'; %bench_ini0
+    expername='bench_ini0'; 
 end
 
 % possible values 'no_guess', 'guess'
@@ -40,7 +40,7 @@ end
 % Use analytic Jacobian
 % approximation mode
 if ~exist('useJacobian','var')
-    useJacobian=true;
+    useJacobian=false;
 end
 
 % only compute steady state (without writing initial model object)

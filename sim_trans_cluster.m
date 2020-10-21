@@ -16,7 +16,7 @@ excel_export_means = true;
 respath='./';
 outpath='./Results/';
 if ~exist('resfile','var')
-    resfile='res_20200310_bench_s130';
+    resfile='res_20200910_bench_s130';
 end
 
 load([respath,resfile,'.mat']);

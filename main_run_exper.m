@@ -9,7 +9,7 @@ close all;
 
 % parallel processes? set this to zero for just one process
 if ~exist('no_par_processes','var')
-    no_par_processes=16; %10
+    no_par_processes=2; %16
 end
 disp(['PPN: ',num2str(no_par_processes)]);
 
@@ -32,16 +32,15 @@ end
 % path to file with experiment definition
 if ~exist('exper_path','var')
     exper_path='env_bench_ini0.mat';
-	%exper_path='res_2019_9_19_11_9.mat';
 end
 if ~exist('maxit','var')
-    maxit=2;
+    maxit=100;
 end
 if ~exist('tol_avg','var')
     tol_avg=0.0001;
 end
 if ~exist('price_zns','var')
-    price_zns=true;
+    price_zns=false;
 end
 
 % print mode
