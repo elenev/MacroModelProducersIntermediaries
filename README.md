@@ -89,8 +89,8 @@ Fast Steps to Reproduce Benchmark Model
 
     -   To plot IRFs, run `plot_trans`.
 	
-For More Details See readme_ECTA.pdf and readme_replication.txt
-=================	
+**For More Details See readme_ECTA.pdf and readme_replication.txt**
+	
 
 <sup>1</sup>: Elenev: Johns Hopkins University, Carey Business School; email:
     <velenev@jhu.edu>. Landvoigt: University of Pennsylvania Wharton
