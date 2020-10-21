@@ -1,4 +1,4 @@
-# Code for "A Macroeconomic Model with FinanciallyConstrained Intermediaries and Producers"
+# Code for "A Macroeconomic Model with Financially Constrained Intermediaries and Producers"
 ## Vadim Elenev, Tim Landvoigt, Stijn Van Nieuwerburgh<sup>1</sup>
 
 
